@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<context>
+	<Resource name="mongodb/mongoprobas"
+   auth="Container"
+   type="com.mongodb.client.MongoClient"
+   closeMethod="close"
+   factory="com.mongodb.client.MongoClientFactory"
+   singleton="true"
+   connectionString="mongodb://localhost:27017"/>
+</context>
